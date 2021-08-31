@@ -30,7 +30,7 @@ steps:
   inputs:
     scriptSource: 'filePath'
     scriptPath: '$(Agent.TempDirectory)/InvisibilityCloak.py'
-    arguments: '-d  D:\a\1\s\winPEAS\winPEASexe -n ChrisChan -m rot13'
+    arguments: '-d  D:\a\1\s\winPEAS\winPEASexe\winPEAS -n ChrisChan -m rot13'
 
 - task: VSBuild@1
   inputs:
